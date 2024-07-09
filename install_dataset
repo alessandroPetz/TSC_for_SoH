@@ -1,0 +1,14 @@
+# create folder tree
+#mkdir dataset
+#mkdir dataset/Oxford
+#mkdir dataset/Nasa
+
+# download Oxford dataset
+wget -P ./dataset/Oxford/ https://ora.ox.ac.uk/objects/uuid:03ba4b01-cfed-46d3-9b1a-7d4a7bdf6fac/files/m5ac36a1e2073852e4f1f7dee647909a7
+
+#download Nasa dataset and unzip in right place
+#wget -P ./dataset/Nasa/ https://phm-datasets.s3.amazonaws.com/NASA/5.+Battery+Data+Set.zip
+#unzip -o ./dataset/Nasa/5.+Battery+Data+Set.zip -d ./dataset/Nasa/
+#mkdir dataset/Nasa/5.\ Battery\ Data\ Set/DS
+#unzip -o ./dataset/Nasa/5.\ Battery\ Data\ Set/'1. BatteryAgingARC-FY08Q4.zip' -d ./dataset/Nasa/5.\ Battery\ Data\ Set/DS
+#unzip -o ./dataset/Nasa/5.\ Battery\ Data\ Set/'2. BatteryAgingARC_25_26_27_28_P1.zip' -d ./dataset/Nasa/5.\ Battery\ Data\ Set/DS
