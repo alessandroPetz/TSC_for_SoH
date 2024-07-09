@@ -2,6 +2,7 @@
 Time Series Classification for State of Health Prediction of Li-Ion Battery
 
 To download and install datasets in the right place:
+
 $ bash /path/to/project/TSC_for_SoH/install_dataset
 
 
